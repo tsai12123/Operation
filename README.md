@@ -19,9 +19,11 @@
 ```
 
 - 步驟三 下載Ngrok並連接port4000
-    - [Ngrok官網][1]
-    - [1]: https://ngrok.com/        "Ngork"
+
+[Ngrok][1]
+
+  [1]: https://ngrok.com/        "Ngrok"
     - 註冊並申請Authtoken
     - 在終端機進入Ngork資料夾，並輸入ngrok authtoken YOUR_AUTH_TOKEN，再輸入ngrok http 4000，就可以得到Ngrok的網址，拿網址後面再加上/helloworld就可以成功了
 ## 畫面
-![Ngrok的網址]()
+![Ngrok的網址](./image/01.png)
